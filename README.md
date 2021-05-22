@@ -25,6 +25,7 @@ The following JLL packages are required by `libgraphicsmagic_jll.jl`:
 * `FreeType2_jll)`
 * `Ghostscript_jll)`
 * `Libtiff_jll)`
+* `Libtool_jll)`
 * `LittleCMS_jll)`
 * `XZ_jll)`
 * `Xorg_libSM_jll)`
