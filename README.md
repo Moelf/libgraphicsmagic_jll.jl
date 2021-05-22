@@ -20,9 +20,14 @@ The tarballs for `libgraphicsmagic_jll.jl` have been built from these sources:
 
 The following JLL packages are required by `libgraphicsmagic_jll.jl`:
 
+* `Bzip2_jll)`
 * `CompilerSupportLibraries_jll)`
 * `FreeType2_jll)`
 * `Ghostscript_jll)`
+* `Libtiff_jll)`
+* `LittleCMS_jll)`
+* `XZ_jll)`
+* `Xorg_libSM_jll)`
 * `Xorg_libXext_jll)`
 * `libpng_jll)`
 * `libwebp_jll)`
