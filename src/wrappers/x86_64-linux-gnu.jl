@@ -2,13 +2,18 @@
 export gm, libGraphicsMagic, libGraphicsMagicPlusPlus, libGraphicsMagicWand
 
 using CompilerSupportLibraries_jll
+using libwebp_jll
+using libpng_jll
+using FreeType2_jll
+using Ghostscript_jll
+using Xorg_libXext_jll
 JLLWrappers.@generate_wrapper_header("libgraphicsmagic")
 JLLWrappers.@declare_executable_product(gm)
 JLLWrappers.@declare_library_product(libGraphicsMagic, "libGraphicsMagick.so.3")
 JLLWrappers.@declare_library_product(libGraphicsMagicPlusPlus, "libGraphicsMagick++.so.12")
 JLLWrappers.@declare_library_product(libGraphicsMagicWand, "libGraphicsMagickWand.so.2")
 function __init__()
-    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll)
+    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, libwebp_jll, libpng_jll, FreeType2_jll, Ghostscript_jll, Xorg_libXext_jll)
     JLLWrappers.@init_executable_product(
         gm,
         "bin/gm",
