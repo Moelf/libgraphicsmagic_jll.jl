@@ -1,9 +1,9 @@
 [[libgraphicsmagic]]
 arch = "x86_64"
-git-tree-sha1 = "92ad5c57f148782dc4de5b1394c64c78fa6c94c9"
+git-tree-sha1 = "b41b21e74c2a5e6ec2aa63dffea0efd37e853699"
 libc = "glibc"
 os = "linux"
 
     [[libgraphicsmagic.download]]
-    sha256 = "bec8b560c1f783ae7b08511f78e8d90d98373459383e70f38d10f4e48d95db25"
+    sha256 = "403f45dc817d9558c2be856317b2a29d35d4f132eed28ee3e24ae96e7155a208"
     url = "https://github.com/Moelf/libgraphicsmagic_jll.jl/releases/download/libgraphicsmagic-v1.3.36+0/libgraphicsmagic.v1.3.36.x86_64-linux-gnu.tar.gz"
